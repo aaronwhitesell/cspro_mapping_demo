@@ -1,0 +1,62 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=Assignments Dictionary
+Name=ASSIGNMENTS_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=8F167819C8D0C91A1CC085FD4A319109E95940B5ED5BAB134C8C6AE39B6BC212
+
+[Level]
+Label=Assignments Level
+Name=ASSIGNMENTS_LEVEL
+
+[IdItems]
+
+[Item]
+Label=A Province
+Name=A_PROVINCE
+Start=1
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=A Ward
+Name=A_WARD
+Start=2
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=A Ea
+Name=A_EA
+Start=4
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=Assignments Record
+Name=ASSIGNMENTS_REC
+RecordTypeValue=''
+RecordLen=14
+
+[Item]
+Label=A Interviewer
+Name=A_INTERVIEWER
+Start=7
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=A Supervisor
+Name=A_SUPERVISOR
+Start=11
+Len=4
+DataType=Numeric
+ZeroFill=Yes

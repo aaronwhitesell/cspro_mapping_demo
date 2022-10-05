@@ -1,0 +1,13 @@
+﻿Excel=..\assets\assignments.xlsx
+InputDict=..\dictionaries\assignments.dcf
+OutputData=..\data\assignments.csdb
+StartingRow=2
+CaseManagement=ModifyAddCases
+RunOnlyIfNewer=No
+
+Mapping=ASSIGNMENTS_REC;@1;Sheet1
+Mapping=ASSIGNMENTS_REC.A_PROVINCE;@1
+Mapping=ASSIGNMENTS_REC.A_WARD;@2
+Mapping=ASSIGNMENTS_REC.A_EA;@3
+Mapping=A_INTERVIEWER;@4
+Mapping=A_SUPERVISOR;@5

@@ -1,0 +1,53 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=Staff Dictionary
+Name=STAFF_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=533A62CE25EC7BF4657112F03E7DE30C217D451ADF80532697E9858964792240
+
+[Level]
+Label=Staff Level
+Name=STAFF_LEVEL
+
+[IdItems]
+
+[Item]
+Label=S Id
+Name=S_ID
+Start=1
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=Staff Record
+Name=STAFF_REC
+RecordTypeValue=''
+RecordLen=59
+
+[Item]
+Label=S Name
+Name=S_NAME
+Start=5
+Len=50
+DataType=Alpha
+
+[Item]
+Label=S Role
+Name=S_ROLE
+Start=55
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=S Pin
+Name=S_PIN
+Start=56
+Len=4
+DataType=Numeric
+ZeroFill=Yes

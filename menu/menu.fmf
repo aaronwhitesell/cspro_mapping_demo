@@ -1,0 +1,87 @@
+﻿[FormFile]
+Version=CSPro 7.7
+Name=MENU_FF
+Label=menu
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=..\dictionaries\menu.dcf
+  
+[Form]
+Name=FORM001
+Label=menu Record
+Level=1
+Size=348,258
+  
+Item=MAPPING_MENU
+Item=LOGIN
+Item=SELECT_ASSIGNMENT
+Item=MENU_PIN
+  
+[EndForm]
+  
+[Level]
+Name=MENU_LEVEL
+Label=menu Level
+  
+[Group]
+Required=Yes
+Name=MENU_REC_FORM
+Label=menu Record
+Form=1
+Max=1
+  
+[Field]
+Name=LOGIN
+Position=182,34,239,54
+Item=LOGIN,MENU_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=45,37,81,53
+Text=Login
+ 
+  
+[Field]
+Name=MENU_PIN
+Position=182,70,239,90
+Item=MENU_PIN,MENU_DICT
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=45,73,67,89
+Text=PIN
+ 
+  
+[Field]
+Name=SELECT_ASSIGNMENT
+Position=182,107,267,127
+Item=SELECT_ASSIGNMENT,MENU_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=45,110,162,126
+Text=Select Assignment
+ 
+  
+[Field]
+Name=MAPPING_MENU
+Position=182,144,197,164
+Item=MAPPING_MENU,MENU_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=45,147,139,163
+Text=Mapping Menu
+ 
+[EndGroup]
+  

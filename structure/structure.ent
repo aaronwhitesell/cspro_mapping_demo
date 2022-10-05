@@ -1,0 +1,22 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=STRUCTURE
+Name=STRUCTURE
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+[AppCode]
+File=.\structure.ent.apc
+[Message]
+File=.\structure.ent.mgf
+[Help]
+File=.\structure.ent.qsf
+[Forms]
+File=.\structure.fmf
+[Dictionary Types]
+Dict-Type=..\dictionaries\structure.dcf,Input,.\structure.fmf

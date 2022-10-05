@@ -1,0 +1,28 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=MENU
+Name=MENU
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+[External Dictionaries]
+File=..\dictionaries\staff.dcf
+File=..\dictionaries\assignments.dcf
+File=..\dictionaries\structure.dcf
+[AppCode]
+File=.\menu.ent.apc
+[Message]
+File=.\menu.ent.mgf
+[Help]
+File=.\menu.ent.qsf
+[Forms]
+File=.\menu.fmf
+[Dictionary Types]
+Dict-Type=..\dictionaries\menu.dcf,Input,.\menu.fmf
+Dict-Type=..\dictionaries\staff.dcf,External
+Dict-Type=..\dictionaries\assignments.dcf,External
+Dict-Type=..\dictionaries\structure.dcf,External

@@ -1,0 +1,13 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+
+[Files]
+Application=.\menu.ent
+InputData=.\menu.csdb
+Paradata=.\menu.cslog
+
+[ExternalFiles]
+ASSIGNMENTS_DICT=..\data\assignments.csdb
+HOUSEHOLD_DICT=..\data\household.csdb
+STAFF_DICT=..\data\staff.csdb

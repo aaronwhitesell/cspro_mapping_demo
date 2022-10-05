@@ -1,0 +1,12 @@
+﻿Excel=..\assets\staff.xlsx
+InputDict=..\dictionaries\staff.dcf
+OutputData=..\data\staff.csdb
+StartingRow=2
+CaseManagement=ModifyAddCases
+RunOnlyIfNewer=No
+
+Mapping=STAFF_REC;@1;Sheet1
+Mapping=STAFF_REC.S_ID;@1
+Mapping=S_NAME;@2
+Mapping=S_ROLE;@3
+Mapping=S_PIN;@4

@@ -1,0 +1,90 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=menu
+Name=MENU_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=999D42D7897BED5F009565546D99F7D44DF25E48BCA7DB388B81F5D2D8353AF3
+
+[Level]
+Label=menu Level
+Name=MENU_LEVEL
+
+[IdItems]
+
+[Item]
+Label=menu Identification
+Name=MENU_ID
+Start=2
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=menu Record
+Name=MENU_REC
+RecordTypeValue='1'
+RecordLen=23
+
+[Item]
+Label=Login
+Name=LOGIN
+Start=3
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=PIN
+Name=MENU_PIN
+Start=7
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Select Assignment
+Name=SELECT_ASSIGNMENT
+Start=11
+Len=6
+DataType=Alpha
+
+[Item]
+Label=Mapping Menu
+Name=MAPPING_MENU
+Start=17
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Mapping Menu
+Name=MAPPING_MENU_VS1
+Value=1;View Map
+
+[Item]
+Label=Current Province
+Name=CURRENT_PROVINCE
+Start=18
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Current Ward
+Name=CURRENT_WARD
+Start=19
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Current EA
+Name=CURRENT_EA
+Start=21
+Len=3
+DataType=Numeric
+ZeroFill=Yes
